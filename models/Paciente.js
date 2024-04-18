@@ -5,8 +5,8 @@ const pacienteSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    telefono: {
-        type: Number,
+    propietario: {
+        type: String,
         required: true
     },
     email: {
